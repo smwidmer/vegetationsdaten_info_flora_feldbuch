@@ -1,5 +1,5 @@
 #__________________________________________________________________________
-# Artdaten vom Info Flora Online-Feldbuch zu Kreuztabelle tranformieren
+# Artdaten vom Info Flora Online-Feldbuch zu Kreuztabelle transformieren
 # Stefan Widmer, Forschungsgruppe Vegetationsoekologie
 # Artendaten_Info_Flora_FB_de_v.05.R
 # Version 0.5 | 20.10.2023
@@ -13,7 +13,7 @@
 
 
 # Package "tidyverse " installieren (falls noch nicht installiert) und atachen
-if(!require(tidyverse )){install.packages("tidyverse ")}
+if(!require(tidyverse )){install.packages("tidyverse")}
 library("tidyverse")
 
 # 1. Artdaten von Info Flora Online-Feldbuch herunterladen ----------------
