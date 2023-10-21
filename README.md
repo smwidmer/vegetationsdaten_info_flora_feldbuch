@@ -3,12 +3,12 @@
 
 <a name="inhalt"></a>
 ### Inhalt
-- [Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora](#export)
-- [Vegetationsdaten vom Info Flora Online-Feldbuch transformieren](#transformieren)
+- [1. Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora](#export)
+- [2. Vegetationsdaten vom Info Flora Online-Feldbuch transformieren](#transformieren)
 
 
 <a name="export"></a>
-## Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora
+## 1. Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora
 
 1. Login im [Info Flora Online-Feldbuch](https://auth.infoflora.ch/de/login)
 
@@ -28,7 +28,7 @@
    
 
 <a name="transformieren"></a>
-## Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
+## 2. Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
 
 
 #### Artdaten vom Info Flora Online-Feldbuch zu Kreuztabelle transformieren 
