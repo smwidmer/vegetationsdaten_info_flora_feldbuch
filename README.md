@@ -1,4 +1,4 @@
-## Vegetationsaufnahme-Daten vom Online-Feldbuch von Info Flora exportieren und mit R transformieren und nutzten
+## Vegetationsaufnahmen vom Online-Feldbuch von Info Flora exportieren und mit R transformieren und nutzten
 
 
 <a name="inhalt"></a>
