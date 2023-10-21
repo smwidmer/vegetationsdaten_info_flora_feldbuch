@@ -8,7 +8,7 @@
 
 
 <a name="export"></a>
-## 1. Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora
+### 1. Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora
 
 1. Login im [Info Flora Online-Feldbuch](https://auth.infoflora.ch/de/login)
 
@@ -28,7 +28,7 @@
    
 
 <a name="transformieren"></a>
-## 2. Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
+### 2. Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
 
 
 #### Artdaten vom Info Flora Online-Feldbuch zu Kreuztabelle transformieren 
