@@ -15,3 +15,13 @@
 ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/66779fcc-d582-425f-a94e-e7caab2e9ce3)
 
 7. Beide Dateien öffnen und als «CSV UTF-8 (durch Trennzeichen-getrennt) (*.csv)» speichern.
+
+# 2. Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
+
+
+### Artdaten vom Info Flora Online-Feldbuch zu Kreuztabelle transformieren 
+Beschreibung
+R-Skript
+
+### Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
+Beschreibung
