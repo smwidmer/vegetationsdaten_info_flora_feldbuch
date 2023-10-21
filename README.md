@@ -1,7 +1,7 @@
-# Vegetationsaufnahme-Daten vom Online-Feldbuch von Info Flora nutzten
+## Vegetationsaufnahme-Daten vom Online-Feldbuch von Info Flora nutzten
 
 
-## 1 Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora
+### 1 Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora
 
 1. Login im [Info Flora Online-Feldbuch](https://auth.infoflora.ch/de/login)
 
@@ -20,11 +20,11 @@
 7. Beide Dateien öffnen und als «CSV UTF-8 (durch Trennzeichen-getrennt) (*.csv)» speichern.
 8. 
 
-## 2. Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
+### 2. Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
 
-### Artdaten vom Info Flora Online-Feldbuch zu Kreuztabelle transformieren 
+#### Artdaten vom Info Flora Online-Feldbuch zu Kreuztabelle transformieren 
 Beschreibung
 R-Skript
 
-### Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
+#### Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
 Beschreibung
