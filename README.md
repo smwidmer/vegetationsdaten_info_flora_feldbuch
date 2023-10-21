@@ -14,7 +14,7 @@
 
 
 
-<!-- 1. Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora -->
+<!-- Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora -->
 ## Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora
 
 1. Login im [Info Flora Online-Feldbuch](https://auth.infoflora.ch/de/login)
