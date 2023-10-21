@@ -2,12 +2,17 @@
 
 1. Login im [Info Flora Online-Feldbuch](https://auth.infoflora.ch/de/login)
 
-2. Login im Info Flora Online-Feldbuch
-
 3. Klick auf «Beobachtungen»
    
 4. Im Drop-Down Menü von Maske: «Vegetationsaufnahmen wählen»
+
+![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/9b4d82aa-1550-49dc-b598-4bf51c4a255e)
+
    
 5. «Export der Vegetationsaufnahmen» anklicken, um die Kopfdaten zu speichern «Export der Beobachtungen» anklicken, um die Artdaten zu speichern
 
 6. Beide Dateien öffnen und als «CSV UTF-8 (durch Trennzeichen-getrennt) (*.csv)» speichern.
+
+   ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/66779fcc-d582-425f-a94e-e7caab2e9ce3)
+
+7. Beide Dateien öffnen und als «CSV UTF-8 (durch Trennzeichen-getrennt) (*.csv)» speichern.
