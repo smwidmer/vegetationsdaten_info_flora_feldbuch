@@ -1,7 +1,19 @@
 ## Vegetationsaufnahme-Daten vom Online-Feldbuch von Info Flora nutzten
 
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Inhalt</summary>
+  <ol>
+    <li>
+      <a href="#Export">1. Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting started</a>
+ </ol>
+</details>
 
-### 1 Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora
+<!-- ABOUT THE PROJECT -->
+### 1. Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora
 
 1. Login im [Info Flora Online-Feldbuch](https://auth.infoflora.ch/de/login)
 
