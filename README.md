@@ -8,7 +8,6 @@
 
 ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/9b4d82aa-1550-49dc-b598-4bf51c4a255e)
 
-   
 5. «Export der Vegetationsaufnahmen» anklicken, um die Kopfdaten zu speichern «Export der Beobachtungen» anklicken, um die Artdaten zu speichern
 
 6. Beide Dateien öffnen und als «CSV UTF-8 (durch Trennzeichen-getrennt) (*.csv)» speichern.
