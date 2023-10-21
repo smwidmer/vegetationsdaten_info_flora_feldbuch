@@ -5,7 +5,7 @@
   <summary>Inhalt</summary>
   <ol>
     <li>
-      <a href="#Export">Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora</a>
+      <a href="#export">Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora</a>
     </li>
     <li>
       <a href="#transformieren">Vegetationsdaten vom Info Flora Online-Feldbuch transformieren</a>
