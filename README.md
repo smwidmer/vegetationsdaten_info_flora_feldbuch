@@ -32,7 +32,8 @@
 
 
 #### Artdaten vom Info Flora Online-Feldbuch zu Kreuztabelle transformieren 
-R-Skript um die Artdaten in eine Kreuztabelle umwandelt. Als PlotID wird vom Feldbuch generierte "releve_id" verwendet.
+[R-Skript] (https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/blob/main/Artendaten_Info_Flora_FB_de_v.05.R)
+um die Artdaten in eine Kreuztabelle umwandelt. Als PlotID wird vom Feldbuch generierte "releve_id" verwendet.
 
 
 #### Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
