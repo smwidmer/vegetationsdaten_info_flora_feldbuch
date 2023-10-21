@@ -30,6 +30,7 @@
 <a name="transformieren"></a>
 ## Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
 
+
 #### Artdaten vom Info Flora Online-Feldbuch zu Kreuztabelle transformieren 
 R-Skript um die Artdaten in eine Kreuztabelle umwandelt. Als PlotID wird vom Feldbuch generierte "releve_id" verwendet.
 
@@ -37,5 +38,3 @@ R-Skript um die Artdaten in eine Kreuztabelle umwandelt. Als PlotID wird vom Fel
 #### Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
 R Skript das die Kopf-/Umweldaten mit Einträgen aus den Beobachtungen ergänzt und die Artdaten in eine Kreuztabelle umwandelt. Als PlotID wird der in der FlorApp erfasste "Name der Vegetationsaufnahme" verwendet
 
-#### Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
-Beschreibung
