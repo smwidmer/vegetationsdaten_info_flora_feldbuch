@@ -6,7 +6,7 @@
 #__________________________________________________________________________
 
 # Package "tidyverse " installieren (falls noch nicht installiert) und atachen
-if(!require(tidyverse )){install.packages("tidyverse ")}
+if(!require(tidyverse )){install.packages("tidyverse")}
 library("tidyverse")
 
 # 1. Daten von Info Flora Online-Feldbuch herunterladen -------------------
