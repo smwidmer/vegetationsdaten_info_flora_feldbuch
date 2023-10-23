@@ -15,7 +15,7 @@
 
 2. Klick auf «Beobachtungen»
    
-3. Im Drop-Down Menü von Maske: «Vegetationsaufnahmen wählen»\
+3. Im Drop-Down Menü von Maske: «Vegetationsaufnahmen wählen»
    <br />
    ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/c1c31b31-7b5a-4050-95c8-7f5cc708dba9)
    <br />
