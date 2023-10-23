@@ -38,7 +38,7 @@
 
 
 <a name="Rtransformieren"></a>
-### 2. Vegetationsdaten vom Info Flora Online-Feldbuch mit R transformieren
+## 2. Vegetationsdaten vom Info Flora Online-Feldbuch mit R transformieren
 
 #### Artdaten vom Info Flora Online-Feldbuch zu Kreuztabelle transformieren 
 [R-Skript](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/blob/main/Artendaten_Info_Flora_FB_de_v.05.R)
