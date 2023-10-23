@@ -88,7 +88,7 @@ spxplot_feldbuch$supplements.releve_stratum[spxplot_feldbuch$supplements.releve_
 
 # Neue Spalte mit taxon und Schicht
 spxplot_feldbuch$taxon_schicht <- 
-  paste(spxplot_feldbuch$taxon_orig, spxplot_feldbuch$supplements.releve_stratum, sep = " ")
+  paste(spxplot_feldbuch$taxon_orig, spxplot_feldbuch$supplements.releve_stratum, sep = " /")
 
 # Kreuztabelle erstellen
 spxplot <-  pivot_wider(spxplot_feldbuch[,c("releve_id","taxon_schicht", "supplements.cover_abs")], 
