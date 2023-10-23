@@ -48,6 +48,7 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 #### Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
 [R Skript](Vegetationsdaten_Info_Flora_FB_de_v.01.R) das die Kopf-/Umweldaten mit Einträgen aus den Beobachtungen ergänzt und die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird der in der FlorApp erfasste "Name der Vegetationsaufnahme" verwendet
 <br />
+<br />
 
 
 <a name="VEGEDAZtransformieren"></a>
