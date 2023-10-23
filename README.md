@@ -75,8 +75,8 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
    - ***Artnamen: "taxon_orig"*** oder "taxon.taxon_name"
    - ***Deckungen:*** "supplements.cover.abs" (Wenn Deckungen in Prozent geschtätzt wurden
   
-   - Wenn Schicht erfasst wurde
-   - ***erwünschte Art-Zusätze***: - supplements.releve.stratum
+   Wenn Schicht erfasst wurde:
+   - ***erwünschte Art-Zusätze***: supplements.releve.stratum
    <br />
    
    ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/60d328c3-4450-46d8-a740-c5f284080f8b)
@@ -91,6 +91,7 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 6. VEGEDAZ: *Bearbeiten - Einfügen (Optionen) -->*
 7. Im neuen Fenster Option *"(+Alt) Transponieren, überschreiben" wählen - "ok"*
    <br />
+   
    ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/1f87eec7-499c-49a2-b3c3-b5d11c50e983)
    <br />
    
