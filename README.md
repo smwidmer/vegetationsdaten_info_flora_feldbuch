@@ -1,4 +1,4 @@
-## Vegetationsaufnahmen vom Online-Feldbuch von Info Flora exportieren transformieren und nutzten
+# Vegetationsaufnahmen vom Online-Feldbuch von Info Flora exportieren und transformieren
 
 
 <a name="inhalt"></a>
@@ -9,7 +9,7 @@
 <br />
 
 <a name="export"></a>
-### 1. Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora
+## 1. Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora
 
 1. Login im [Info Flora Online-Feldbuch](https://auth.infoflora.ch/de/login)
 
@@ -51,7 +51,7 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 
 
 <a name="VEGEDAZtransformieren"></a>
-### 3. Vegetationsdaten vom Info Flora Online-Feldbuch mit VEGEDAZ transformieren
+## 3. Vegetationsdaten vom Info Flora Online-Feldbuch mit VEGEDAZ transformieren
    <br />
    
 ***Artdaten importieren***
