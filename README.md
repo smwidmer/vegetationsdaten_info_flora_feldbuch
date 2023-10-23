@@ -12,17 +12,19 @@
 
 1. Login im [Info Flora Online-Feldbuch](https://auth.infoflora.ch/de/login)
 
-3. Klick auf «Beobachtungen»
+2. Klick auf «Beobachtungen»
    
-4. Im Drop-Down Menü von Maske: «Vegetationsaufnahmen wählen»
+3. Im Drop-Down Menü von Maske: «Vegetationsaufnahmen wählen»
 
-![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/9b4d82aa-1550-49dc-b598-4bf51c4a255e)
+![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/c1c31b31-7b5a-4050-95c8-7f5cc708dba9)
 
-5. «Export der Vegetationsaufnahmen» anklicken, um die Kopfdaten zu speichern «Export der Beobachtungen» anklicken, um die Artdaten zu speichern
+4. Mit gedrückter Ctrl oder Shift Taste Vegetationsaufnahmen, die exportiert werden sollen, markieren.
 
-6. Beide Dateien öffnen und als «CSV UTF-8 (durch Trennzeichen-getrennt) (*.csv)» speichern.
+5. Auf «Export der Aufnahmen» klicken -> Neues Fenster erscheint
 
-![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/66779fcc-d582-425f-a94e-e7caab2e9ce3)
+   ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/66779fcc-d582-425f-a94e-e7caab2e9ce3)
+   
+6. «Export der Vegetationsaufnahmen» anklicken, um die Kopfdaten zu speichern. «Export der Beobachtungen» anklicken, um die Artdaten zu speichern.
 
 7. Beide Dateien öffnen und als «CSV UTF-8 (durch Trennzeichen-getrennt) (*.csv)» speichern.
    
@@ -33,9 +35,9 @@
 
 #### Artdaten vom Info Flora Online-Feldbuch zu Kreuztabelle transformieren 
 [R-Skript](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/blob/main/Artendaten_Info_Flora_FB_de_v.05.R)
-um die Artdaten in eine Kreuztabelle umwandelt. Als PlotID wird vom Feldbuch generierte "releve_id" verwendet.
+das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch generierte "releve_id" verwendet.
 
 
 #### Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
-[R Skript](Vegetationsdaten_Info_Flora_FB_de_v.01.R) das die Kopf-/Umweldaten mit Einträgen aus den Beobachtungen ergänzt und die Artdaten in eine Kreuztabelle umwandelt. Als PlotID wird der in der FlorApp erfasste "Name der Vegetationsaufnahme" verwendet
+[R Skript](Vegetationsdaten_Info_Flora_FB_de_v.01.R) das die Kopf-/Umweldaten mit Einträgen aus den Beobachtungen ergänzt und die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird der in der FlorApp erfasste "Name der Vegetationsaufnahme" verwendet
 
