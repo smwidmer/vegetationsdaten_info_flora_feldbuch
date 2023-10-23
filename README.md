@@ -45,3 +45,12 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 <a name="#VEGEDAZtransformieren"></a>
 ### 3. Vegetationsdaten vom Info Flora Online-Feldbuch mit VEGEDAZ transformieren
 
+1. VEGEDAZ öffnen. *Datei - Import -->* oder ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/66b117bd-1a9f-4db8-890f-fc6cf144c40a)
+
+2. Im neuen Fenster *Beobachtungen einzeln* auswählen.
+   Artdaten (obs_releve_export.csv) aus Zwischenanblage importieren (Trennzeichen *TAB (Tabulator-Zeichen)*
+   oder 
+   Artdaten als Dateiimportieren (Trennzeichen *SEM (Semikolon)* - *Ok* - Datei auswählen
+
+![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/fcb0e8fa-284a-415a-8447-e9c08c13655c)
+
