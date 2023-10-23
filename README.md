@@ -31,9 +31,11 @@
    
    <br />
    
-8. «Export der Vegetationsaufnahmen» anklicken, um die Kopfdaten zu speichern. «Export der Beobachtungen» anklicken, um die Artdaten zu speichern.
+8. «Export der Vegetationsaufnahmen» anklicken, um die Kopfdaten zu speichern. «Export der Beobachtungen» anklicken, um die Artdaten zu speichern.   <br />
+   (Artdaten können auch über die Maske Standart heruntergeladen werden. Vorteil: Die Beschränkung von 50 Aufnahmen entfällt. Nachteil: einzelne Plots können nicht selektiert werden)
+   
 
-9. Beide Dateien öffnen und als «CSV UTF-8 (durch Trennzeichen-getrennt) (*.csv)» speichern.
+10. Beide Dateien öffnen und als «CSV UTF-8 (durch Trennzeichen-getrennt) (*.csv)» speichern.
 <br />
 
 
