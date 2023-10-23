@@ -86,10 +86,17 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 6. Kopfdaten (releve_export.csv) öffnen mit Ctrl + A alles markieren (alternativ nur elevante einträge kopieren) mit Ctrl + C alles kopieren
 7. VEGEDAZ: Bearbeiten - Einfügen (Optionen) -->
 8. Im neuen Fenster Option "(+Alt) Transponieren, überschreiben" wählen - "ok"
-
+   <br />
    ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/1f87eec7-499c-49a2-b3c3-b5d11c50e983)
+   <br />
 
+9. Wenn Schichten Importiert wurden Menü Bearbeiten - Ersetzten um die Schicht Codes vom Feldbuch durch die Schich-Codes von VEGEDAZ zu ersetzten
+    Codes Feldbuch:
+   ♃ = Krautschicht / v = Strauchschicht /  Y = Baumschicht / ψ = Moosschicht
    
+   Codes VEGEDAZ:
+   /K = Krautschicht / /S = Strauchschicht /  /B = Baumschicht / M = Moosschicht
+
 
 
    
