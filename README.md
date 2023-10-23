@@ -1,10 +1,11 @@
-## Vegetationsaufnahmen vom Online-Feldbuch von Info Flora exportieren und mit R transformieren und nutzten
+## Vegetationsaufnahmen vom Online-Feldbuch von Info Flora exportieren transformieren und nutzten
 
 
 <a name="inhalt"></a>
 ### Inhalt
 - [1. Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora](#export)
-- [2. Vegetationsdaten vom Info Flora Online-Feldbuch transformieren](#transformieren)
+- [2. Vegetationsdaten vom Info Flora Online-Feldbuch mit R transformieren](#Rtransformieren)
+- [3. Vegetationsdaten vom Info Flora Online-Feldbuch mit VEGEDAZ transformieren](#VEGEDAZtransformieren)
 
 
 <a name="export"></a>
@@ -29,9 +30,8 @@
 7. Beide Dateien öffnen und als «CSV UTF-8 (durch Trennzeichen-getrennt) (*.csv)» speichern.
    
 
-<a name="transformieren"></a>
-### 2. Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
-
+<a name="#Rtransformieren"></a>
+### 2. Vegetationsdaten vom Info Flora Online-Feldbuch mit R transformieren
 
 #### Artdaten vom Info Flora Online-Feldbuch zu Kreuztabelle transformieren 
 [R-Skript](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/blob/main/Artendaten_Info_Flora_FB_de_v.05.R)
@@ -40,4 +40,8 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 
 #### Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
 [R Skript](Vegetationsdaten_Info_Flora_FB_de_v.01.R) das die Kopf-/Umweldaten mit Einträgen aus den Beobachtungen ergänzt und die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird der in der FlorApp erfasste "Name der Vegetationsaufnahme" verwendet
+
+
+<a name="#VEGEDAZtransformieren"></a>
+### 3. Vegetationsdaten vom Info Flora Online-Feldbuch mit VEGEDAZ transformieren
 
