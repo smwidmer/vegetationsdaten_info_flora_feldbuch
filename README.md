@@ -54,10 +54,14 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 
    ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/92003b62-3674-41db-bdee-ffd691558d0b)
 
+
 3. Im neuen Fenster (siehe unten):
-   erwünschte Kopfdaten: "releve_id"
-   Artnamen: "taxon_orig" oder "taxon.taxon_name"
-   Deckungen: "supplements.cover.abs" (Wenn Deckungen in Prozent geschtätzt wurden
+   - ***erwünschte Kopfdaten:*** "releve_id"
+   - ***Artnamen: "taxon_orig"*** oder "taxon.taxon_name"
+   - ***Deckungen:*** "supplements.cover.abs" (Wenn Deckungen in Prozent geschtätzt wurden
+  
+   - Wenn Schicht erfasst wurde
+   - ***erwünschte Art-Zusätze***: - supplements.releve.stratum
 
 
 ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/60d328c3-4450-46d8-a740-c5f284080f8b)
