@@ -47,10 +47,21 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 
 1. VEGEDAZ öffnen. *Datei - Import -->* oder ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/66b117bd-1a9f-4db8-890f-fc6cf144c40a)
 
-2. Im neuen Fenster *Beobachtungen einzeln* auswählen.
+2. Im neuen Fenster (siehe unten) *Beobachtungen einzeln* auswählen.
    Artdaten (obs_releve_export.csv) aus Zwischenanblage importieren (Trennzeichen *TAB (Tabulator-Zeichen)*
    oder 
-   Artdaten als Dateiimportieren (Trennzeichen *SEM (Semikolon)* - *Ok* - Datei auswählen
+   Artdaten als Datei importieren (Trennzeichen *SEM (Semikolon)* - *Ok* - Datei auswählen
 
-![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/fcb0e8fa-284a-415a-8447-e9c08c13655c)
+   ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/92003b62-3674-41db-bdee-ffd691558d0b)
+
+3. Im neuen Fenster (siehe unten):
+   erwünschte Kopfdaten: "releve_id"
+   Artnamen: "taxon_orig" oder "taxon.taxon_name"
+   Deckungen: "supplements.cover.abs" (Wenn Deckungen in Prozent geschtätzt wurden
+
+
+![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/60d328c3-4450-46d8-a740-c5f284080f8b)
+
+
+   
 
