@@ -73,7 +73,7 @@ env <- env[ order( row.names(env) ), ]
 
 ## Artdaten bearbeiten ####
 # Auswahl relevanter Spalten von "spxplot_feldbuch" und hinzfügen von eigener 
-# PlotID von "env"
+# PlotID von "env" (supplements.cover_ab = Geschätzte Deckung in %)
 spxplot <- merge(
   x = env_feldbuch[,c("id", "name")], 
   y = spxplot_feldbuch[,c("releve_id","taxon_orig", "supplements.cover_abs", "supplements.releve_stratum")],  
