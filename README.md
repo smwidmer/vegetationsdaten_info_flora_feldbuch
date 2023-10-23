@@ -90,14 +90,19 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
    ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/1f87eec7-499c-49a2-b3c3-b5d11c50e983)
    <br />
 
-9. Wenn Schichten Importiert wurden Menü Bearbeiten - Ersetzten um die Schicht Codes vom Feldbuch durch die Schich-Codes von VEGEDAZ zu ersetzten
-    Codes Feldbuch:
+9. Wenn Schichten Importiert wurden Menü Bearbeiten - Ersetzten um die Schicht Codes vom Feldbuch durch die Schicht-Codes von VEGEDAZ zu ersetzten
+   <br />
+   
+   Codes Feldbuch:
    ♃ = Krautschicht / v = Strauchschicht /  Y = Baumschicht / ψ = Moosschicht
-   
+      <br />
+      
    Codes VEGEDAZ:
-   /K = Krautschicht / /S = Strauchschicht /  /B = Baumschicht / M = Moosschicht
+   /K = Krautschicht /S = Strauchschicht /  /B = Baumschicht / M = Moosschicht
 
+   ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/5a9002dd-2d8c-4431-a902-19e9116c5f27)
 
 
    
+
 
