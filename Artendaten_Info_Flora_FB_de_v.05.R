@@ -54,6 +54,7 @@ levels(spxplot_feldbuch$supplements.releve_stratum)
 # 3.1 Kreuztabelle für Vegetationsdaten mit einer Schicht -----------------
 
 # Kreuztabelle erstellen
+# supplements.cover_ab = Geschätzte Deckung in %
 spxplot <-  pivot_wider(spxplot_feldbuch[,c("releve_id","taxon_orig", "supplements.cover_abs")], 
                         names_from = releve_id, values_from = supplements.cover_abs)
 
