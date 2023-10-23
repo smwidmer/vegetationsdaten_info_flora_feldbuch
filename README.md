@@ -66,10 +66,9 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
    <br />
    
    ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/92003b62-3674-41db-bdee-ffd691558d0b)
-   
    <br />
 
-4. Im neuen Fenster (siehe unten):
+3. Im neuen Fenster (siehe unten):
    - ***erwünschte Kopfdaten:*** "releve_id"
    - ***Artnamen: "taxon_orig"*** oder "taxon.taxon_name"
    - ***Deckungen:*** "supplements.cover.abs" (Wenn Deckungen in Prozent geschtätzt wurden
@@ -85,15 +84,16 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 ***Kopf-/Umweldaten importieren***
    <br />
    
-5. Crouser in Zelle "releve_id" setzten, danach mit Ctrl + Enter eine neue Zeile einfügen
-6. Kopfdaten (releve_export.csv) öffnen mit Ctrl + A alles markieren (alternativ nur elevante einträge kopieren) mit Ctrl + C alles kopieren
-7. VEGEDAZ: *Bearbeiten - Einfügen (Optionen) -->*
-8. Im neuen Fenster Option *"(+Alt) Transponieren, überschreiben" wählen - "ok"*
+4. Cursor in Zelle "releve_id" setzten, danach mit Ctrl + Enter eine neue Zeile einfügen
+5. Kopfdaten (releve_export.csv) öffnen mit Ctrl + A alles markieren (alternativ nur elevante einträge kopieren) mit Ctrl + C alles kopieren
+6. VEGEDAZ: *Bearbeiten - Einfügen (Optionen) -->*
+7. Im neuen Fenster Option *"(+Alt) Transponieren, überschreiben" wählen - "ok"*
    <br />
+   
    ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/1f87eec7-499c-49a2-b3c3-b5d11c50e983)
    <br />
 
-9. Wenn Schichten Importiert wurden Menü *Bearbeiten* - *Ersetzten* um die Schicht Codes vom Feldbuch durch die Schicht-Codes von VEGEDAZ zu ersetzten
+8. Wenn Schichten Importiert wurden Menü *Bearbeiten* - *Ersetzten* um die Schicht Codes vom Feldbuch durch die Schicht-Codes von VEGEDAZ zu ersetzten
    <br />
    
    Codes Feldbuch:
