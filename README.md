@@ -85,7 +85,7 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
    <br />
    
 4. Cursor in Zelle "releve_id" setzten, danach mit Ctrl + Enter eine neue Zeile einfügen
-5. Kopfdaten (releve_export.csv) öffnen mit Ctrl + A alles markieren (alternativ nur elevante einträge kopieren) mit Ctrl + C alles kopieren
+5. Kopfdaten (releve_export.csv) öffnen mit Ctrl + A alles markieren (alternativ nur relevante Spalten markieren) mit Ctrl + C alles kopieren
 6. VEGEDAZ: *Bearbeiten - Einfügen (Optionen) -->*
 7. Im neuen Fenster Option *"(+Alt) Transponieren, überschreiben" wählen - "ok"*
    <br />
