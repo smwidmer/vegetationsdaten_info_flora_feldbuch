@@ -36,7 +36,7 @@
 9. Beide Dateien öffnen und als «CSV UTF-8 (durch Trennzeichen-getrennt) (*.csv)» speichern.
    
 
-<a name="#Rtransformieren"></a>
+<a name="Rtransformieren"></a>
 ### 2. Vegetationsdaten vom Info Flora Online-Feldbuch mit R transformieren
 
 #### Artdaten vom Info Flora Online-Feldbuch zu Kreuztabelle transformieren 
@@ -47,8 +47,7 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 #### Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
 [R Skript](Vegetationsdaten_Info_Flora_FB_de_v.01.R) das die Kopf-/Umweldaten mit Einträgen aus den Beobachtungen ergänzt und die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird der in der FlorApp erfasste "Name der Vegetationsaufnahme" verwendet
 
-
-<a name="#VEGEDAZtransformieren"></a>
+<a name="VEGEDAZtransformieren"></a>
 ### 3. Vegetationsdaten vom Info Flora Online-Feldbuch mit VEGEDAZ transformieren
    <br />
    
@@ -84,22 +83,23 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
    
 5. Crouser in Zelle "releve_id" setzten, danach mit Ctrl + Enter eine neue Zeile einfügen
 6. Kopfdaten (releve_export.csv) öffnen mit Ctrl + A alles markieren (alternativ nur elevante einträge kopieren) mit Ctrl + C alles kopieren
-7. VEGEDAZ: Bearbeiten - Einfügen (Optionen) -->
-8. Im neuen Fenster Option "(+Alt) Transponieren, überschreiben" wählen - "ok"
+7. VEGEDAZ: *Bearbeiten - Einfügen (Optionen) -->*
+8. Im neuen Fenster Option *"(+Alt) Transponieren, überschreiben" wählen - "ok"*
    <br />
    ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/1f87eec7-499c-49a2-b3c3-b5d11c50e983)
    <br />
 
-9. Wenn Schichten Importiert wurden Menü Bearbeiten - Ersetzten um die Schicht Codes vom Feldbuch durch die Schicht-Codes von VEGEDAZ zu ersetzten
+9. Wenn Schichten Importiert wurden Menü *Bearbeiten* - *Ersetzten* um die Schicht Codes vom Feldbuch durch die Schicht-Codes von VEGEDAZ zu ersetzten
    <br />
    
    Codes Feldbuch:
-   ♃ = Krautschicht / v = Strauchschicht /  Y = Baumschicht / ψ = Moosschicht
+   ♃ = Krautschicht; v = Strauchschicht;  Y = Baumschicht; ψ = Moosschicht
       <br />
       
    Codes VEGEDAZ:
-   /K = Krautschicht /S = Strauchschicht /  /B = Baumschicht / M = Moosschicht
-
+   /K = Krautschicht; /S = Strauchschicht; /B = Baumschicht; / M = Moosschicht
+   <br />
+   
    ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/5a9002dd-2d8c-4431-a902-19e9116c5f27)
 
 
