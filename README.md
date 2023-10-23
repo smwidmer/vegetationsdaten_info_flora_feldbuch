@@ -36,6 +36,7 @@
 9. Beide Dateien öffnen und als «CSV UTF-8 (durch Trennzeichen-getrennt) (*.csv)» speichern.
 <br />
 
+
 <a name="Rtransformieren"></a>
 ### 2. Vegetationsdaten vom Info Flora Online-Feldbuch mit R transformieren
 
