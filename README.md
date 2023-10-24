@@ -108,6 +108,9 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
    
    ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/5a9002dd-2d8c-4431-a902-19e9116c5f27)
 
+Wenn zusätzliche Kopfdaten, die nur in den exportierten Artdaten vorhanden sind (z.B. Koordinaten) ins VEGEDAZ importiert werden möchten, können z.B. in Excel die entsprechenden Einträge mit der Funktion EINDEUTIG für jede Aufnahme (releve_id) zusammengestellt werden und dann ebenfalls transponiert ins VEGEDAZ eingefügt werden.
+Alternativ kann auch das [R Skript](Vegetationsdaten_Info_Flora_FB_de_v.01.R) verwendet werden und bei Bedarf die Daten anschliessend ins VEGEDAZ importiert werden
+
 
    
 
