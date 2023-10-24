@@ -73,7 +73,7 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 3. Im neuen Fenster (siehe unten):
    - ***erwünschte Kopfdaten:*** "releve_id"
    - ***Artnamen: "taxon_orig"*** oder "taxon.taxon_name"
-   - ***Deckungen:*** "supplements.cover.abs" (Wenn Deckungen in Prozent geschtätzt wurden
+   - ***Deckungen:*** "supplements.cover.abs" (Wenn Deckungen in Prozent geschätzt wurden)
   
    Wenn Schicht erfasst wurde:
    - ***erwünschte Art-Zusätze***: supplements.releve.stratum
