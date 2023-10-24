@@ -154,7 +154,7 @@ spxplot <- t(spxplot)
 spxplot <- spxplot[ order( row.names(spxplot) ), ]
 
 
-# 3.3 Kreuztabelle für definierte Schicht(en) -----------------------------
+# 5.3 Kreuztabelle für definierte Schicht(en) -----------------------------
 
 # Bei Bedarf nicht definierte Schicht einer Schicht zuweisen (hier bsp. Krautschicht)
 nicht_definerte_Schicht = "♃"
