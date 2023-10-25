@@ -67,7 +67,8 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
    Artdaten als Datei importieren (Trennzeichen *SEM (Semikolon)* - *Ok* - Datei auswählen
    <br />
    
-   ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/92003b62-3674-41db-bdee-ffd691558d0b)
+   ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/aee38132-daf0-4ba8-bfc5-96c4ce0f0986)
+
    <br />
 
 3. Im neuen Fenster (siehe unten):
