@@ -63,7 +63,7 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 
 2. Im neuen Fenster (siehe unten) *Beobachtungen einzeln* auswählen.
    Artdaten (obs_releve_export.csv) aus Zwischenanblage importieren (Trennzeichen *TAB (Tabulator-Zeichen)*
-   oder 
+   <br /> oder    <br />
    Artdaten als Datei importieren (Trennzeichen *SEM (Semikolon)* - *Ok* - Datei auswählen
    <br />
    
