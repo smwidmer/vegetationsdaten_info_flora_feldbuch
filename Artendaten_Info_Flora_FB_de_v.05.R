@@ -32,6 +32,9 @@ setwd("C:/Users/name/Documents/VegA") # Example
 spxplot_feldbuch <- 
   read.table("obs_releve_export.csv", header = TRUE, sep = ";", stringsAsFactors = T) 
 
+# Spalte "taxon.taxon_name" = Artname Checklist 2017 & addenda
+# Spalte "taxon_orig" = Artname der als Freitext erfasst wurde oder Artname 
+# Checklist 2017 & addenda ohne Autor wenn Art nicht als Freitext erfasst wurde
 
 # 3. Entscheid Schicht ----------------------------------------------------
 # Sind mehre Schichten erfasst worden?:
