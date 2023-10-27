@@ -25,6 +25,10 @@ setwd("C:/Users/name/Documents/VegA") # Example
 spxplot_feldbuch <- 
   read.table("obs_releve_export.csv", header = TRUE, sep = ";", stringsAsFactors = TRUE) 
 
+# Spalte "taxon.taxon_name" = Artname Checklist 2017 & addenda
+# Spalte "taxon_orig" = Artname der als Freitext erfasst wurde oder Artname 
+# Checklist 2017 & addenda ohne Autor wenn Art nicht als Freitext erfasst wurde
+
 ## Kopf-/Umweldaten importieren ####
 # Name "releve_export.csv" anpassen. "sep = ";" ändern wenn nötig
 env_feldbuch <- 
