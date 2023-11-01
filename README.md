@@ -73,7 +73,7 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 
 3. Im neuen Fenster (siehe unten):
    - ***erwünschte Kopfdaten:*** "releve_id"
-   - ***Artnamen:*** "taxon.taxon_name" (Artname Checklist 2017 & addenda) oder "taxon_orig" (Artname der als Freitext erfasst wurde, wenn Art nicht als Freitext erfasst wurde = Artname Checklist 2017 & addenda ohne Autor)
+   - ***Artnamen:*** "taxon.taxon_name" (Artname Checklist 2017 & addenda) oder "taxon_orig" (Art bei der Unsichere Art oder Unsichere Gattung gewählt wurde oder der als Freitext erfasst wurde. Wenn Art von Dropdown-Liste erfasst wurde = Artname Checklist 2017 & addenda ohne Autor)
    - ***Deckungen:*** "supplements.cover.abs" (Wenn Deckungen in Prozent geschätzt wurden)
   
    Wenn Schicht erfasst wurde:
