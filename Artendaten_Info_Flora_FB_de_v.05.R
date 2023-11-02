@@ -30,7 +30,7 @@ setwd("C:/Users/name/Documents/VegA") # Example
 ## Artdaten importieren ####
 # Name "obs_releve_export.csv" anpassen. "sep = ";" ändern wenn nötig
 spxplot_feldbuch <- 
-  read.table("obs_releve_export.csv", header = TRUE, sep = ";", stringsAsFactors = T) 
+  read.csv("obs_releve_export.csv", sep = ";", stringsAsFactors = T) 
 
 # Spalte "taxon.taxon_name" = Taxaname Checklist 2017 & addenda
 # Spalte "taxon_orig" = Taxaname mit cf. (Unsichere Art oder Unsichere Gattung gewählt) oder 
