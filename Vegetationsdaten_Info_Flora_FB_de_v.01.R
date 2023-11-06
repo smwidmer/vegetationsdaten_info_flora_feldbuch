@@ -1,8 +1,8 @@
 #__________________________________________________________________________
 # Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
 # Stefan Widmer, Forschungsgruppe Vegetationsoekologie
-# Vegetationsdaten_Info_Flora_FB_de_v.01.R
-# Version 0.1 | 20.10.2023
+# Vegetationsdaten_Info_Flora_FB_de_v.0.1.2.R
+# Version 0.1.2 | 6.11.2023
 #__________________________________________________________________________
 
 # Package "tidyverse " installieren (falls noch nicht installiert) und atachen
@@ -38,8 +38,8 @@ summary(env_feldbuch)
 
 
 # 3. Kopf-/Umweldaten bearbeiten ------------------------------------------
-# Zusammenstellen der  Kopf-/Umweldaten mit relvanten Variablen aus env und spxplot
-# -> Spalten gemäss eigenem Bedarf anpassen
+# Zusammenstellen der  Kopf-/Umweldaten: alle env mit Einträgen & relvante 
+# Spalten aus spxplot (Bei Bedarf anpassen)
 
 env <- merge(x = unique( spxplot_feldbuch[,c(
   "releve_id",
@@ -51,16 +51,7 @@ env <- merge(x = unique( spxplot_feldbuch[,c(
   "municipality.name",
   "v_co_canton",
   "v_observers")] ), 
-  y = env_feldbuch[,c(
-    "id",
-    "name",
-    "surface",
-    "orientation",
-    "slope", 
-    "total_cover",
-    "moss_cover", 
-    "litter_cover",
-    "soil_cover")],
+  y =  env_feldbuch[, !apply( is.na(env_feldbuch), 2, all)],
   by.x = "releve_id", by.y = "id", all.x = TRUE)
 
 # Neue Spalte mit Mittelwert Meter über Meer (altitude)
