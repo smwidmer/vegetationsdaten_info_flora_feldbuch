@@ -1,8 +1,8 @@
 #__________________________________________________________________________
 # Vegetationsdaten vom Info Flora Online-Feldbuch transformieren
 # Stefan Widmer, Forschungsgruppe Vegetationsoekologie
-# Vegetationsdaten_Info_Flora_FB_de_v.0.1.2.R
-# Version 0.1.2 | 6.11.2023
+# Vegetationsdaten_Info_Flora_FB_de_v.1.2.R
+# Version 1.2 | 6.11.2023
 #__________________________________________________________________________
 
 # Package "tidyverse " installieren (falls noch nicht installiert) und atachen
