@@ -67,11 +67,16 @@ env <- env[ order( row.names(env) ), ]
 # 4. Artdaten formatieren (Kreuztabelle Sp. x Plot erstellen) --------------
 
 ## Artdaten bearbeiten ####
+
+# Benutze Deckungsschätzung
+cover_nu <- apply(is.na(spxplot_feldbuch[c("cover","abundance_code", "supplements.cover_abs")]), 2, all )
+cover_estimate <- names(cover_nu)[cover_nu == F]
+
 # Auswahl relevanter Spalten von "spxplot_feldbuch" und hinzfügen von eigener 
 # PlotID von "env"
 spxplot <- merge(
   x = env_feldbuch[,c("id", "name")], 
-  y = spxplot_feldbuch[,c("releve_id","taxon.taxon_name", "supplements.cover_abs", "supplements.releve_stratum")],  
+  y = spxplot_feldbuch[,c("releve_id","taxon_orig", "supplements.cover_abs", cover_estimate)],  
   by.x = "id", by.y = "releve_id")
 
 str(spxplot)
@@ -97,8 +102,8 @@ levels(spxplot$supplements.releve_stratum)
 # 5.1 Kreuztabelle für Vegetationsdaten mit einer Schicht -----------------
 
 # Kreuztabelle erstellen
-spxplot <-  pivot_wider(spxplot[,c("name","taxon.taxon_name", "supplements.cover_abs")], 
-                        names_from = name, values_from = supplements.cover_abs)
+spxplot <-  pivot_wider(spxplot[,c("name","taxon_orig", cover_estimate)], 
+                        names_from = name, values_from = cover_estimate)
 
 # Wenn Fehlermeldung: "supplements.cover_abs` are not uniquely identified" 
 # Wenn nicht die selbe Art in mehreren Schichten in einem Plot vorhanden ist (siehe oben),
@@ -106,7 +111,7 @@ spxplot <-  pivot_wider(spxplot[,c("name","taxon.taxon_name", "supplements.cover
 # -> im Online-Feldbuch korrigieren und bei 1. neu starten
 
 # Taxa name als rowname festlegen
-spxplot <- column_to_rownames(spxplot, var = "taxon.taxon_name")
+spxplot <- column_to_rownames(spxplot, var = "taxon_orig")
 
 # Leere Zellen mit 0 ersetzten
 spxplot[is.na(spxplot)] <- 0
@@ -130,11 +135,11 @@ spxplot$supplements.releve_stratum[spxplot_feldbuch$supplements.releve_stratum==
 
 # Neue Spalte mit taxon und Schicht
 spxplot$taxon_schicht <- 
-  paste(spxplot$taxon.taxon_name, spxplot$supplements.releve_stratum, sep = " /")
+  paste(spxplot$taxon_orig, spxplot$supplements.releve_stratum, sep = " /")
 
 # Kreuztabelle erstellen
-spxplot <-  pivot_wider(spxplot[,c("releve_id","taxon_schicht", "supplements.cover_abs")], 
-                        names_from = releve_id, values_from = supplements.cover_abs)
+spxplot <-  pivot_wider(spxplot[,c("releve_id","taxon_schicht", cover_estimate)], 
+                        names_from = releve_id, values_from = cover_estimate)
 
 # Leere Zellen mit 0 ersetzten
 spxplot[is.na(spxplot)] <- 0
@@ -172,11 +177,11 @@ spxplot <- spxplot[spxplot$supplements.releve_stratum == select_Schicht_1|
                      spxplot$supplements.releve_stratum == select_Schicht_2,]
 
 # Kreuztabelle erstellen
-spxplot <-  pivot_wider(spxplot[,c("releve_id","taxon.taxon_name", "supplements.cover_abs")], 
+spxplot <-  pivot_wider(spxplot[,c("releve_id","taxon_orig", cover_estimate)], 
                         names_from = releve_id, values_from = supplements.cover_abs)
 
 # Taxa name als rowname festlegen
-spxplot <- column_to_rownames(spxplot, var = "taxon.taxon_name")
+spxplot <- column_to_rownames(spxplot, var = "taxon_orig")
 
 # Leere Zellen mit 0 ersetzten
 spxplot[is.na(spxplot)] <- 0
