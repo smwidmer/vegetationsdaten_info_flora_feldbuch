@@ -52,7 +52,7 @@ env <- merge(x = unique( spxplot_feldbuch[,c(
   "v_co_canton",
   "v_observers")] ), 
   y =  env_feldbuch[, !apply( is.na(env_feldbuch), 2, all)],
-  by.x = "releve_id", by.y = "id", all.x = TRUE)
+  by.x = "releve_id", by.y = "id")
 
 # Neue Spalte mit Mittelwert Meter über Meer (altitude)
 env$altitude <- apply(env[c("altitude_min", "altitude_max")], 1, mean, na.rm = TRUE)
