@@ -1,8 +1,8 @@
 #__________________________________________________________________________
 # Artdaten vom Info Flora Online-Feldbuch zu Kreuztabelle transformieren
 # Stefan Widmer, Forschungsgruppe Vegetationsoekologie
-# Artendaten_Info_Flora_FB_de_v.1.2.R
-# Version 1.2 | 20.10.2023
+# Artdaten_Info_Flora_FB_de_v.1.3.R
+# Version 1.3 | 20.10.2023
 #__________________________________________________________________________
 
 # 1. Artdaten von Info Flora Online-Feldbuch herunterladen ................
