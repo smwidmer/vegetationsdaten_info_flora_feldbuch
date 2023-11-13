@@ -72,11 +72,11 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
    <br />
 
 3. Im neuen Fenster (siehe unten):
-   - ***erwünschte Kopfdaten:*** "**releve_id"**,  "x", "y", "xy_precision",  "municipality.name", "altitude_min","altitude_max" (Weitere wie z.B.  "v_co_canton", "v_observers" .. bei Bedarf)
+   - ***erwünschte Kopfdaten:*** "**releve_id"**, weitere nach Bedarf z.B "x", "y", "xy_precision",  "municipality.name", "altitude_min","altitude_max", "v_co_canton", "v_observers"
 
 
    - ***Artnamen:*** "taxon.taxon_name" (Artname Checklist 2017 & addenda) oder "taxon_orig" (Taxaname mit cf. vor Gattung oder cf. vor Art oder Taxaname  welcher als Freitext erfasst wurde. Wenn der Taxaname von der Dropdown-Liste und als "Sichere Bestimmung" gewählt wurde = Artname Checklist 2017 & addenda ohne Autor)
-   - ***Deckungen:*** "supplements.cover.abs" (Wenn Deckungen in Prozent geschätzt wurden)
+   - ***Deckungen:*** "supplements.cover.abs" (Wenn Deckungen in Prozent geschätzt wurden ansonsten "cover" oder "abundance_code")
   
    Wenn Schicht erfasst wurde:
    - ***erwünschte Art-Zusätze***: supplements.releve.stratum
@@ -96,9 +96,9 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 7. VEGEDAZ: *Datei - Import -->* oder ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/66b117bd-1a9f-4db8-890f-fc6cf144c40a)
 
 8. Im neuen Fenster (siehe unten) *Transponiert* auswählen.
-   aus Zwischenanblage importieren (Trennzeichen *TAB (Tabulator-Zeichen)*
+   Aus Zwischenanblage importieren (Trennzeichen *TAB (Tabulator-Zeichen)*
    <br /> oder    <br />
-   Daten als Datei importieren (Trennzeichen *SEM (Semikolon)* - *Ok* - Datei auswählen
+   Daten von Datei importieren (Trennzeichen *SEM (Semikolon)* - *Ok* - Datei auswählen
    <br />
    
 ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/7b6d5612-51b8-4e85-9d6d-913b900ed7fa)
@@ -109,8 +109,8 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 Verknüpfen über Schlüsselfelder "id" und "relve_id" wählen
 
     ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/06bf49d2-4e8b-4ae1-a412-5e64fbef5cf0)
-
-
+   
+   <br />
 11. Wenn Schichten Importiert wurden Menü *Bearbeiten* - *Ersetzten* um die Schicht Codes vom Feldbuch durch die Schicht-Codes von VEGEDAZ zu ersetzten
    <br />
    
