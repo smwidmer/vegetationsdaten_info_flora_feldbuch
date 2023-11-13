@@ -72,7 +72,9 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
    <br />
 
 3. Im neuen Fenster (siehe unten):
-   - ***erwünschte Kopfdaten:*** "releve_id"
+   - ***erwünschte Kopfdaten:*** "**releve_id"**,  "x", "y", "xy_precision",  "municipality.name", "altitude_min","altitude_max" (Weitere wie z.B.  "v_co_canton", "v_observers" .. bei Bedarf)
+
+
    - ***Artnamen:*** "taxon.taxon_name" (Artname Checklist 2017 & addenda) oder "taxon_orig" (Taxaname mit cf. vor Gattung oder cf. vor Art oder Taxaname  welcher als Freitext erfasst wurde. Wenn der Taxaname von der Dropdown-Liste und als "Sichere Bestimmung" gewählt wurde = Artname Checklist 2017 & addenda ohne Autor)
    - ***Deckungen:*** "supplements.cover.abs" (Wenn Deckungen in Prozent geschätzt wurden)
   
@@ -84,19 +86,32 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 
    <br />
 
+4. File speichern (Ctrl + S)
+   
 ***Kopf-/Umweldaten importieren***
    <br />
    
-4. Cursor in Zelle "releve_id" setzten, danach mit Ctrl + Enter eine neue Zeile einfügen
 5. Kopfdaten (releve_export.csv) öffnen mit Ctrl + A alles markieren (alternativ nur relevante Spalten markieren) mit Ctrl + C alles kopieren
-6. VEGEDAZ: *Bearbeiten - Einfügen (Optionen) -->*
-7. Im neuen Fenster Option *"(+Alt) Transponieren, überschreiben" wählen - "ok"*
+   
+7. VEGEDAZ: *Datei - Import -->* oder ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/66b117bd-1a9f-4db8-890f-fc6cf144c40a)
+
+8. Im neuen Fenster (siehe unten) *Transponiert* auswählen.
+   aus Zwischenanblage importieren (Trennzeichen *TAB (Tabulator-Zeichen)*
+   <br /> oder    <br />
+   Daten als Datei importieren (Trennzeichen *SEM (Semikolon)* - *Ok* - Datei auswählen
    <br />
    
-   ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/1f87eec7-499c-49a2-b3c3-b5d11c50e983)
-   <br />
-   
-8. Wenn Schichten Importiert wurden Menü *Bearbeiten* - *Ersetzten* um die Schicht Codes vom Feldbuch durch die Schicht-Codes von VEGEDAZ zu ersetzten
+![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/7b6d5612-51b8-4e85-9d6d-913b900ed7fa)
+
+***Kopf-/Umweldaten mit Artdaten verknüpfen***
+
+9. *Datei - Dateien verknüpfen -->* File mit zuvor gespeicherte "Artdaten" auswählen   <br />
+Verknüpfen über Schlüsselfelder "id" und "relve_id" wählen
+
+    ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/06bf49d2-4e8b-4ae1-a412-5e64fbef5cf0)
+
+
+11. Wenn Schichten Importiert wurden Menü *Bearbeiten* - *Ersetzten* um die Schicht Codes vom Feldbuch durch die Schicht-Codes von VEGEDAZ zu ersetzten
    <br />
    
    Codes Feldbuch:
@@ -108,11 +123,5 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
    <br />
    
    ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/5a9002dd-2d8c-4431-a902-19e9116c5f27)
-
-Wenn zusätzliche Kopfdaten, die nur in den exportierten Artdaten vorhanden sind (z.B. Koordinaten) ins VEGEDAZ importiert werden möchten, können z.B. in Excel die entsprechenden Einträge mit der Funktion EINDEUTIG für jede Aufnahme (releve_id) zusammengestellt werden und dann ebenfalls transponiert ins VEGEDAZ eingefügt werden.
-Alternativ kann auch das [R Skript](Vegetationsdaten_Info_Flora_FB_de_v.01.R) verwendet werden und bei Bedarf die Daten anschliessend ins VEGEDAZ importiert werden
-
-
-   
 
 
