@@ -109,7 +109,7 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 
 9. *Datei - Dateien verknüpfen -->* File mit zuvor gespeicherte "Artdaten" auswählen   <br />
 Verknüpfen über Schlüsselfelder "id" und "relve_id" wählen
-Optionen: "Arten aus dAtei auch einfügen" anwählen
+Optionen: "Arten aus Datei auch einfügen" anwählen
 
     ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/a9696c62-a8cf-4c2e-9738-9945b047b242)
 
