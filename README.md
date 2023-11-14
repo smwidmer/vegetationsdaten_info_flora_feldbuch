@@ -66,12 +66,13 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
    <br /> oder    <br />
    Artdaten als Datei importieren (Trennzeichen *SEM (Semikolon)* - *Ok* - Datei auswählen
    <br />
-   
-   ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/aee38132-daf0-4ba8-bfc5-96c4ce0f0986)
+
+   ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/1355496e-59ba-4288-abed-1beab9b47d5b)
+
 
    <br />
 
-3. Im neuen Fenster (siehe unten):
+4. Im neuen Fenster (siehe unten):
    - ***erwünschte Kopfdaten:*** "**releve_id"**, weitere nach Bedarf z.B "x", "y", "xy_precision",  "municipality.name", "altitude_min","altitude_max", "v_co_canton", "v_observers"
 
 
@@ -86,7 +87,7 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 
    <br />
 
-4. File speichern (Ctrl + S)
+5. File speichern (Ctrl + S)
    
 ***Kopf-/Umweldaten importieren***
    <br />
@@ -101,14 +102,17 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
    Daten von Datei importieren (Trennzeichen *SEM (Semikolon)* - *Ok* - Datei auswählen
    <br />
    
-![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/7b6d5612-51b8-4e85-9d6d-913b900ed7fa)
+   ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/bc3e30cd-7533-40d5-9900-d06abe56e810)
+
 
 ***Kopf-/Umweldaten mit Artdaten verknüpfen***
 
 9. *Datei - Dateien verknüpfen -->* File mit zuvor gespeicherte "Artdaten" auswählen   <br />
 Verknüpfen über Schlüsselfelder "id" und "relve_id" wählen
+Optionen: "Arten aus dAtei auch einfügen" anwählen
 
-    ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/06bf49d2-4e8b-4ae1-a412-5e64fbef5cf0)
+    ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/a9696c62-a8cf-4c2e-9738-9945b047b242)
+
    
    <br />
 11. Wenn Schichten Importiert wurden Menü *Bearbeiten* - *Ersetzten* um die Schicht Codes vom Feldbuch durch die Schicht-Codes von VEGEDAZ zu ersetzten
