@@ -1,4 +1,4 @@
-# Vegetationsaufnahmen vom Online-Feldbuch von Info Flora exportieren und transformieren
+# Vegetationsaufnahmen vom Info Flora Online-Feldbuch exportieren und in R oder VEGEDAZ importieren
 
 
 <a name="inhalt"></a>
@@ -9,20 +9,20 @@
 <br />
 
 <a name="export"></a>
-## 1. Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch von Info Flora
+## 1. Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch
 
 1. Login im [Info Flora Online-Feldbuch](https://auth.infoflora.ch/de/login)
 
-2. Klick auf «Beobachtungen»
+2. Auf «Beobachtungen» klicken.
    
-3. Im Drop-Down Menü von Maske: «Vegetationsaufnahmen wählen»
+3. Im Drop-Down Menü von Maske: «Vegetationsaufnahmen» wählen.
    <br />
    
    ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/c1c31b31-7b5a-4050-95c8-7f5cc708dba9)
    
    <br />
 
-5. Mit gedrückter Ctrl oder Shift Taste Vegetationsaufnahmen, die exportiert werden sollen, markieren.
+5. Mit gedrückter Ctrl- oder Shift-Taste Vegetationsaufnahmen, die exportiert werden sollen, markieren.
 
 6. Auf «Export der Aufnahmen» klicken -> Neues Fenster erscheint
    <br />
@@ -32,10 +32,10 @@
    <br />
    
 8. «Export der Vegetationsaufnahmen» anklicken, um die Kopfdaten zu speichern. «Export der Beobachtungen» anklicken, um die Artdaten zu speichern.   <br />
-   (Artdaten können auch über die Maske Standart heruntergeladen werden. Vorteil: Die Beschränkung von 50 Aufnahmen entfällt. Nachteil: einzelne Plots können nicht selektiert werden)
+   (Hinweis: Die Artdaten können auch über die Maske Standart heruntergeladen werden. Vorteil: Die Beschränkung auf 50 Aufnahmen entfällt. Nachteil: Die Selektion der zu den gewünschten Aufnahmen gehörenden Artdaten mit der Filter-Funktion ist etwas umständlich bzw beschränkt möglich.)
    
 
-10. Beide Dateien öffnen und als «CSV UTF-8 (durch Trennzeichen-getrennt) (*.csv)» speichern.
+10. Beide exportierten Dateien mit Excel öffnen und als «CSV UTF-8 (durch Trennzeichen-getrennt) (*.csv)» speichern und wieder schliessen. Nun sind die Daten parat zur weiteren Bearbeitung mit R oder VEGEDAZ
 <br />
 
 
