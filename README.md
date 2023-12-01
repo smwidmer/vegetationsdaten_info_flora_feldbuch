@@ -40,7 +40,7 @@
 
 
 <a name="Rtransformieren"></a>
-## 2. Vegetationsdaten vom Info Flora Online-Feldbuch mit R transformieren
+## 2. Vegetationsdaten vom Online-Feldbuch in R importieren
 
 #### Artdaten vom Info Flora Online-Feldbuch zu Kreuztabelle transformieren 
 [R-Skript](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/blob/main/Artdaten_Info_Flora_FB_de_v.1.3.R)
@@ -54,7 +54,7 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 
 
 <a name="VEGEDAZtransformieren"></a>
-## 3. Vegetationsdaten vom Info Flora Online-Feldbuch mit VEGEDAZ transformieren
+## 3. Vegetationsdaten vom  Online-Feldbuch in VEGEDAZ importieren
    <br />
    
 ***Artdaten importieren***
