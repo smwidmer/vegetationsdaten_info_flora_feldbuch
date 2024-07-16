@@ -94,7 +94,9 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
    <br />
    Schichtcodes Feldbuch durch Schicht Codes VEGEDAZ ersetzten: "Extra Funktionen" - "Zusätze" - "Zusätze ersetzten":  <br />
    ***Zusätze***:  <br /> ♃  v  Y  ψ   <br />
-   ***Ersetzten mit***:   <br /> K S B M
+   ***Ersetzten mit***:   <br /> K S B M <br />
+   <br />
+   Zuweisen - OK
 
       
    ![veg4](https://github.com/user-attachments/assets/7d7a3a8d-7931-4d8e-9cae-75ed3f39f3d8)
