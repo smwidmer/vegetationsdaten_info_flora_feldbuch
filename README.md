@@ -89,10 +89,9 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
       
    ![veg1](https://github.com/user-attachments/assets/cf913cb0-773c-468d-a0ba-ef2785eb8130)
 
-
+   Wenn Schichten erfasst wurden:<br />
+   ***erwünschte Art-Zusätze***: "supplements.releve.stratum" <br />
    <br />
-   - Wenn Schichten erfasst wurden:
-   - ***erwünschte Art-Zusätze***: "supplements.releve.stratum" <br />
    Schichtcodes Feldbuch durch Schicht Codes VEGEDAZ ersetzten: "Extra Funktionen" - "Zusätze" - "Zusätze ersetzten":  <br />
    ***Zusätze***:  <br /> ♃  v  Y  ψ   <br />
    ***Ersetzten mit***:   <br /> K S B M
