@@ -73,7 +73,8 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
    <br />
 
 3. Im neuen Fenster (siehe unten):
-   - ***erwünschte Kopfdaten:*** "**releve_id"**, weitere nach Bedarf z.B "x", "y", "xy_precision",  "municipality.name", "altitude_min","altitude_max", "v_co_canton", "v_observers"
+   - ***erwünschte Kopfdaten:*** "**releve_id"**, weitere nach Bedarf z.B "x", "y", "xy_precision",  "municipality.name", "altitude_min","altitude_max", "v_co_canton", "v_observers"    <br />
+     Wenn "date" ausgewählt wird muss die Uhrzeit entfernt werden: "Extra Funktionen" - "Kopfdaten" - date wählen - funktion "s Split" zuweisen - OK
 
 
    - ***Artnamen:*** "taxon.taxon_name" (Artname Checklist 2017 & addenda) oder "taxon_orig" (Taxaname mit cf. vor Gattung oder cf. vor Art oder Taxaname  welcher als Freitext erfasst wurde. Wenn der Taxaname von der Dropdown-Liste und als "Sichere Bestimmung" gewählt wurde = Artname Checklist 2017 & addenda ohne Autor)
@@ -82,10 +83,12 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
    Wenn Schicht erfasst wurde:
    - ***erwünschte Art-Zusätze***: supplements.releve.stratum
    <br />
-   
-   ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/60d328c3-4450-46d8-a740-c5f284080f8b)
+      
 
-   ![grafik](https://github.com/user-attachments/assets/1e57a6b7-560e-4a6c-bf99-9433426ee4bb)
+   ![veg1](https://github.com/user-attachments/assets/cf913cb0-773c-468d-a0ba-ef2785eb8130)
+
+
+
 
    <br />
 
