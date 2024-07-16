@@ -72,7 +72,7 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
 
    <br />
 
-4. Im neuen Fenster (siehe unten):
+3. Im neuen Fenster (siehe unten):
    - ***erwünschte Kopfdaten:*** "**releve_id"**, weitere nach Bedarf z.B "x", "y", "xy_precision",  "municipality.name", "altitude_min","altitude_max", "v_co_canton", "v_observers"
 
 
@@ -84,6 +84,8 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
    <br />
    
    ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/60d328c3-4450-46d8-a740-c5f284080f8b)
+
+   ![grafik](https://github.com/user-attachments/assets/1e57a6b7-560e-4a6c-bf99-9433426ee4bb)
 
    <br />
 
