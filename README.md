@@ -77,22 +77,36 @@ das die Artdaten in eine Kreuztabelle transfomiert. Als PlotID wird vom Feldbuch
      Wenn "date" ausgewählt wird muss die Uhrzeit entfernt werden: "Extra Funktionen" - "Kopfdaten" - date wählen - funktion "s Split" zuweisen - OK
 
 
-   - ***Artnamen:*** "taxon.taxon_name" (Artname Checklist 2017 & addenda) oder "taxon_orig" (Taxaname mit cf. vor Gattung oder cf. vor Art oder Taxaname  welcher als Freitext erfasst wurde. Wenn der Taxaname von der Dropdown-Liste und als "Sichere Bestimmung" gewählt wurde = Artname Checklist 2017 & addenda ohne Autor)
+   - ***Artnamen:*** "taxon.taxon_name" (Artname Checklist 2017 & addenda) oder "taxon_orig" (Taxaname mit cf. vor Gattung oder cf. vor Art oder Taxaname  welcher als Freitext erfasst wurde. Wenn der Taxaname von der Dropdown-Liste und als "Sichere Bestimmung" gewählt wurde = Artname Checklist
+     2017 & addenda ohne Autor)
    - ***Deckungen:*** "supplements.cover.abs" (Wenn Deckungen in Prozent geschätzt wurden ansonsten "cover" oder "abundance_code")
   
-   Wenn Schicht erfasst wurde:
-   - ***erwünschte Art-Zusätze***: supplements.releve.stratum
+     
+   - ***erwünschte Art-Zusätze***:
+      - Wenn keine Schicht erfasst wurde: nichts markieren
+      - Wenn Schichten erfasst wurden (siehe unten)
    <br />
       
-
    ![veg1](https://github.com/user-attachments/assets/cf913cb0-773c-468d-a0ba-ef2785eb8130)
 
 
-
-
    <br />
+   - Wenn Schichten erfasst wurden:
+   - ***erwünschte Art-Zusätze***: "supplements.releve.stratum" <br />
+   Schichtcodes Feldbuch durch Schicht Codes VEGEDAZ ersetzten: "Extra Funktionen" - "Zusätze" - "Zusätze ersetzten":  <br />
+   ***Zusätze***:  <br /> ♃  v  Y  ψ   <br />
+   ***Ersetzten mit***:   <br /> K S B M
+
+      
+   ![veg4](https://github.com/user-attachments/assets/7d7a3a8d-7931-4d8e-9cae-75ed3f39f3d8)
+
+   (Codes Feldbuch: ♃ = Krautschicht; v = Strauchschicht; Y = Baumschicht; ψ = Moosschicht <br />
+   Codes VEGEDAZ: /K = Krautschicht; /S = Strauchschicht; /B = Baumschicht; / M = Moosschicht )
+
 
 5. File speichern (Ctrl + S)
+   
+   <br />
    
 ***Kopf-/Umweldaten importieren***
    <br />
@@ -119,18 +133,3 @@ Optionen: "Arten aus Datei auch einfügen" anwählen
     ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/a9696c62-a8cf-4c2e-9738-9945b047b242)
 
    
-   <br />
-11. Wenn Schichten Importiert wurden Menü *Bearbeiten* - *Ersetzten* um die Schicht Codes vom Feldbuch durch die Schicht-Codes von VEGEDAZ zu ersetzten
-   <br />
-   
-   Codes Feldbuch:
-   ♃ = Krautschicht; v = Strauchschicht;  Y = Baumschicht; ψ = Moosschicht
-      <br />
-      
-   Codes VEGEDAZ:
-   /K = Krautschicht; /S = Strauchschicht; /B = Baumschicht; / M = Moosschicht
-   <br />
-   
-   ![grafik](https://github.com/smwidmer/vegetationsdaten_info_flora_feldbuch/assets/89586146/5a9002dd-2d8c-4431-a902-19e9116c5f27)
-
-
