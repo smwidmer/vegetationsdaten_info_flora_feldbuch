@@ -11,7 +11,7 @@
 <a name="export"></a>
 ## 1. Exportieren von Vegetationsaufnahmen aus dem Online-Feldbuch
 
-1. Login im [Info Flora Online-Feldbuch](https://auth.infoflora.ch/de/login)
+1. Login im [Info Flora Online-Feldbuch](https://fieldbook.infoflora.ch/de/home)
 
 2. Auf «Beobachtungen» klicken.
    
